@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="fontawesome-6.2.0/css/all.css">
+  <style>
+    body {
+      background-color: #F3F5F8;
+    }
+
+    .navbar .navbar-nav .nav-link {
+      padding: 0 20px;
+    }
+
+    .navbar .navbar-nav .nav-link:hover {
+      color: blue;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      color: blue;
+    }
+
+    .job .card-body .image {
+      width: 60px;
+    }
+
+    .job .card-body .image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .card {
+      background-color: white;
+    }
+
+    .card-header,
+    .card-footer {
+      background-color: transparent;
+    }
+    .pic img{
+      width: 70px;
+      height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <Header class="bg-white">
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container border-bottom-2">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="Bootstrap" width="70" height="58">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex collapse navbar-collapse" id="navbarScroll">
+          <form class="d-flex position-relative" role="search">
+            <input class="form-control me-2 bg-body-secondary" type="search" placeholder="ស្វែងរក..."
+              aria-label="Search">
+            <button class="btn position-absolute end-0 mx-2" type="submit">
+              <img src="img/search.svg" alt="">
+            </button>
+          </form>
+          <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item d-block text-center">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="fa-solid fa-house-chimney"></i>
+                </div>
+                <div class="div">ផ្ទះ</div>
+              </a>
+            </li>
+            <li class="nav-item d-block text-center">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-file-lines"></i>
+                <div class="div">អត្ថបទ</div>
+              </a>
+            </li>
+            <li class="nav-item d-block text-center">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-briefcase"></i>
+                <div class="div">ការងារ</div>
+              </a>
+            </li>
+            <li class="nav-item d-block text-center">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-bell"></i>
+                <div class="div">ដំណឹង</div>
+              </a>
+            </li>
+            <li class="nav-item dropdown  d-block text-center">
+              <img src="img/undraw_profile.svg" alt="" width="30" height="24">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                ​ខ្ញុំ
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-gear"></i>ខ្ញុំ</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">ការកំណត់</a></li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </Header>
+  <!-- Body -->
+  <main class="my-4">
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-xl-8">
+            <div class="job">
+              <div class="card border-0 py-3">
+                <div class="card-header border-bottom-0">
+                  <div class="control d-flex justify-content-between">
+                    <h4>ការងារ</h4>
+                    <a href="#">មើលបន្ថែមទៀត</a>
+                  </div>
+                </div>
+                <div class="card-body border border-2 mx-3 rounded-3 ">
+                  <div class="box d-flex mb-3">
+                    <div class="image me-3">
+                      <img src="img/O9wBB9W5NjRUwKHNcpXOfJC85xIbnefqajvZVqrp.png" alt="">
+                    </div>
+                    <div class="title">
+                      <a href="#">
+                        <h2>Digital Marketing</h2>
+                      </a>
+                      <a href="#">
+                        <span>Workingna (Cambodia) Co.,LTD</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="border-top-0 d-flex justify-content-between">
+                    <div class="place d-flex">
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">Phnom Penh</p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">Full time</p>
+                    </div>
+                    <div class="date">
+                      <p>3 ,october 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article mt-5">
+              <div class="card border-0 py-3">
+                <div class="card-header border-bottom-0">
+                  <div class="control d-flex">
+                    <img src="img/O9wBB9W5NjRUwKHNcpXOfJC85xIbnefqajvZVqrp.png" alt="" width="30" height="24">
+                    <a class="mx-3" href="#">សហគមន៍ឌីជីថលកម្ពុជា​​ Digital Community Of Cambodia</a>
+                  </div>
+                </div>
+                <div class="card-body mx-3 ">
+                  <div class="box mb-3">
+                    <a href="#">
+                      <h5>សូមទស្សនាវីដេអុអំពី​សហគមន៍ឌីជីថលកម្ពុជា</h5>
+                    </a>
+                    <p>
+                      <span class="text-info-emphasis bg-info-subtle">បច្ចេកវិទ្យា</span>
+                      ដើរតួយ៉ាងសំខាន់នាសម័យឌីជីថល..
+                    </p>
+                  </div>
+                  <div class="border-top-0 d-flex justify-content-between">
+                    <div class="place d-flex">
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-regular fa-heart"> 7</i>
+                      </p>
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-brands fa-rocketchat"> 0</i>
+                      </p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ការជូនដំណឹង</p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ចំណេះដឹងឌីជីថលDigital Litery</p>
+                    </div>
+                    <div class="date">
+                      <p>3 ,october 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article mt-5">
+              <div class="card border-0 py-3">
+                <div class="card-header border-bottom-0">
+                  <div class="control d-flex">
+                    <img src="img/O9wBB9W5NjRUwKHNcpXOfJC85xIbnefqajvZVqrp.png" alt="" width="30" height="24">
+                    <a class="mx-3" href="#">សហគមន៍ឌីជីថលកម្ពុជា​​ Digital Community Of Cambodia</a>
+                  </div>
+                </div>
+                <div class="card-body mx-3 ">
+                  <div class="box mb-3">
+                    <a href="#">
+                      <h5>សូមទស្សនាវីដេអុអំពី​សហគមន៍ឌីជីថលកម្ពុជា</h5>
+                    </a>
+                    <p>
+                      <span class="text-info-emphasis bg-info-subtle">បច្ចេកវិទ្យា</span>
+                      ដើរតួយ៉ាងសំខាន់នាសម័យឌីជីថល..
+                    </p>
+                  </div>
+                  <div class="border-top-0 d-flex justify-content-between">
+                    <div class="place d-flex">
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-regular fa-heart"> 7</i>
+                      </p>
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-brands fa-rocketchat"> 0</i>
+                      </p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ការជូនដំណឹង</p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ចំណេះដឹងឌីជីថលDigital Litery</p>
+                    </div>
+                    <div class="date">
+                      <p>3 ,october 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article mt-5">
+              <div class="card border-0 py-3">
+                <div class="card-header border-bottom-0">
+                  <div class="control d-flex">
+                    <img src="img/O9wBB9W5NjRUwKHNcpXOfJC85xIbnefqajvZVqrp.png" alt="" width="30" height="24">
+                    <a class="mx-3" href="#">សហគមន៍ឌីជីថលកម្ពុជា​​ Digital Community Of Cambodia</a>
+                  </div>
+                </div>
+                <div class="card-body mx-3 ">
+                  <div class="box mb-3">
+                    <a href="#">
+                      <h5>សូមទស្សនាវីដេអុអំពី​សហគមន៍ឌីជីថលកម្ពុជា</h5>
+                    </a>
+                    <p>
+                      <span class="text-info-emphasis bg-info-subtle">បច្ចេកវិទ្យា</span>
+                      ដើរតួយ៉ាងសំខាន់នាសម័យឌីជីថល..
+                    </p>
+                  </div>
+                  <div class="border-top-0 d-flex justify-content-between">
+                    <div class="place d-flex">
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-regular fa-heart"> 7</i>
+                      </p>
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-brands fa-rocketchat"> 0</i>
+                      </p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ការជូនដំណឹង</p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ចំណេះដឹងឌីជីថលDigital Litery</p>
+                    </div>
+                    <div class="date">
+                      <p>3 ,october 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article mt-5">
+              <div class="card border-0 py-3">
+                <div class="card-header border-bottom-0">
+                  <div class="control d-flex">
+                    <img src="img/O9wBB9W5NjRUwKHNcpXOfJC85xIbnefqajvZVqrp.png" alt="" width="30" height="24">
+                    <a class="mx-3" href="#">សហគមន៍ឌីជីថលកម្ពុជា​​ Digital Community Of Cambodia</a>
+                  </div>
+                </div>
+                <div class="card-body mx-3 ">
+                  <div class="box mb-3">
+                    <a href="#">
+                      <h5>សូមទស្សនាវីដេអុអំពី​សហគមន៍ឌីជីថលកម្ពុជា</h5>
+                    </a>
+                    <p>
+                      <span class="text-info-emphasis bg-info-subtle">បច្ចេកវិទ្យា</span>
+                      ដើរតួយ៉ាងសំខាន់នាសម័យឌីជីថល..
+                    </p>
+                  </div>
+                  <div class="border-top-0 d-flex justify-content-between">
+                    <div class="place d-flex">
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-regular fa-heart"> 7</i>
+                      </p>
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-brands fa-rocketchat"> 0</i>
+                      </p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ការជូនដំណឹង</p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ចំណេះដឹងឌីជីថលDigital Litery</p>
+                    </div>
+                    <div class="date">
+                      <p>3 ,october 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article mt-5">
+              <div class="card border-0 py-3">
+                <div class="card-header border-bottom-0">
+                  <div class="control d-flex">
+                    <img src="img/O9wBB9W5NjRUwKHNcpXOfJC85xIbnefqajvZVqrp.png" alt="" width="30" height="24">
+                    <a class="mx-3" href="#">សហគមន៍ឌីជីថលកម្ពុជា​​ Digital Community Of Cambodia</a>
+                  </div>
+                </div>
+                <div class="card-body mx-3 ">
+                  <div class="box mb-3">
+                    <a href="#">
+                      <h5>សូមទស្សនាវីដេអុអំពី​សហគមន៍ឌីជីថលកម្ពុជា</h5>
+                    </a>
+                    <p>
+                      <span class="text-info-emphasis bg-info-subtle">បច្ចេកវិទ្យា</span>
+                      ដើរតួយ៉ាងសំខាន់នាសម័យឌីជីថល..
+                    </p>
+                  </div>
+                  <div class="border-top-0 d-flex justify-content-between">
+                    <div class="place d-flex">
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-regular fa-heart"> 7</i>
+                      </p>
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-brands fa-rocketchat"> 0</i>
+                      </p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ការជូនដំណឹង</p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ចំណេះដឹងឌីជីថលDigital Litery</p>
+                    </div>
+                    <div class="date">
+                      <p>3 ,october 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article mt-5">
+              <div class="card border-0 py-3">
+                <div class="card-header border-bottom-0">
+                  <div class="control d-flex">
+                    <img src="img/O9wBB9W5NjRUwKHNcpXOfJC85xIbnefqajvZVqrp.png" alt="" width="30" height="24">
+                    <a class="mx-3" href="#">សហគមន៍ឌីជីថលកម្ពុជា​​ Digital Community Of Cambodia</a>
+                  </div>
+                </div>
+                <div class="card-body mx-3 ">
+                  <div class="box mb-3">
+                    <a href="#">
+                      <h5>សូមទស្សនាវីដេអុអំពី​សហគមន៍ឌីជីថលកម្ពុជា</h5>
+                    </a>
+                    <p>
+                      <span class="text-info-emphasis bg-info-subtle">បច្ចេកវិទ្យា</span>
+                      ដើរតួយ៉ាងសំខាន់នាសម័យឌីជីថល..
+                    </p>
+                  </div>
+                  <div class="border-top-0 d-flex justify-content-between">
+                    <div class="place d-flex">
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-regular fa-heart"> 7</i>
+                      </p>
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-brands fa-rocketchat"> 0</i>
+                      </p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ការជូនដំណឹង</p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ចំណេះដឹងឌីជីថលDigital Litery</p>
+                    </div>
+                    <div class="date">
+                      <p>3 ,october 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article mt-5">
+              <div class="card border-0 py-3">
+                <div class="card-header border-bottom-0">
+                  <div class="control d-flex">
+                    <img src="img/O9wBB9W5NjRUwKHNcpXOfJC85xIbnefqajvZVqrp.png" alt="" width="30" height="24">
+                    <a class="mx-3" href="#">សហគមន៍ឌីជីថលកម្ពុជា​​ Digital Community Of Cambodia</a>
+                  </div>
+                </div>
+                <div class="card-body mx-3 ">
+                  <div class="box mb-3">
+                    <a href="#">
+                      <h5>សូមទស្សនាវីដេអុអំពី​សហគមន៍ឌីជីថលកម្ពុជា</h5>
+                    </a>
+                    <p>
+                      <span class="text-info-emphasis bg-info-subtle">បច្ចេកវិទ្យា</span>
+                      ដើរតួយ៉ាងសំខាន់នាសម័យឌីជីថល..
+                    </p>
+                  </div>
+                  <div class="border-top-0 d-flex justify-content-between">
+                    <div class="place d-flex">
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-regular fa-heart"> 7</i>
+                      </p>
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-brands fa-rocketchat"> 0</i>
+                      </p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ការជូនដំណឹង</p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ចំណេះដឹងឌីជីថលDigital Litery</p>
+                    </div>
+                    <div class="date">
+                      <p>3 ,october 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article mt-5">
+              <div class="card border-0 py-3">
+                <div class="card-header border-bottom-0">
+                  <div class="control d-flex">
+                    <img src="img/O9wBB9W5NjRUwKHNcpXOfJC85xIbnefqajvZVqrp.png" alt="" width="30" height="24">
+                    <a class="mx-3" href="#">សហគមន៍ឌីជីថលកម្ពុជា​​ Digital Community Of Cambodia</a>
+                  </div>
+                </div>
+                <div class="card-body mx-3 ">
+                  <div class="box mb-3">
+                    <a href="#">
+                      <h5>សូមទស្សនាវីដេអុអំពី​សហគមន៍ឌីជីថលកម្ពុជា</h5>
+                    </a>
+                    <p>
+                      <span class="text-info-emphasis bg-info-subtle">បច្ចេកវិទ្យា</span>
+                      ដើរតួយ៉ាងសំខាន់នាសម័យឌីជីថល..
+                    </p>
+                  </div>
+                  <div class="border-top-0 d-flex justify-content-between">
+                    <div class="place d-flex">
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-regular fa-heart"> 7</i>
+                      </p>
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-brands fa-rocketchat"> 0</i>
+                      </p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ការជូនដំណឹង</p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ចំណេះដឹងឌីជីថលDigital Litery</p>
+                    </div>
+                    <div class="date">
+                      <p>3 ,october 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article mt-5">
+              <div class="card border-0 py-3">
+                <div class="card-header border-bottom-0">
+                  <div class="control d-flex">
+                    <img src="img/O9wBB9W5NjRUwKHNcpXOfJC85xIbnefqajvZVqrp.png" alt="" width="30" height="24">
+                    <a class="mx-3" href="#">សហគមន៍ឌីជីថលកម្ពុជា​​ Digital Community Of Cambodia</a>
+                  </div>
+                </div>
+                <div class="card-body mx-3 ">
+                  <div class="box mb-3">
+                    <a href="#">
+                      <h5>សូមទស្សនាវីដេអុអំពី​សហគមន៍ឌីជីថលកម្ពុជា</h5>
+                    </a>
+                    <p>
+                      <span class="text-info-emphasis bg-info-subtle">បច្ចេកវិទ្យា</span>
+                      ដើរតួយ៉ាងសំខាន់នាសម័យឌីជីថល..
+                    </p>
+                  </div>
+                  <div class="border-top-0 d-flex justify-content-between">
+                    <div class="place d-flex">
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-regular fa-heart"> 7</i>
+                      </p>
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-brands fa-rocketchat"> 0</i>
+                      </p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ការជូនដំណឹង</p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ចំណេះដឹងឌីជីថលDigital Litery</p>
+                    </div>
+                    <div class="date">
+                      <p>3 ,october 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article mt-5">
+              <div class="card border-0 py-3">
+                <div class="card-header border-bottom-0">
+                  <div class="control d-flex">
+                    <img src="img/O9wBB9W5NjRUwKHNcpXOfJC85xIbnefqajvZVqrp.png" alt="" width="30" height="24">
+                    <a class="mx-3" href="#">សហគមន៍ឌីជីថលកម្ពុជា​​ Digital Community Of Cambodia</a>
+                  </div>
+                </div>
+                <div class="card-body mx-3 ">
+                  <div class="box mb-3">
+                    <a href="#">
+                      <h5>សូមទស្សនាវីដេអុអំពី​សហគមន៍ឌីជីថលកម្ពុជា</h5>
+                    </a>
+                    <p>
+                      <span class="text-info-emphasis bg-info-subtle">បច្ចេកវិទ្យា</span>
+                      ដើរតួយ៉ាងសំខាន់នាសម័យឌីជីថល..
+                    </p>
+                  </div>
+                  <div class="border-top-0 d-flex justify-content-between">
+                    <div class="place d-flex">
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-regular fa-heart"> 7</i>
+                      </p>
+                      <p>
+                        <i class=" me-2 px-2 py-1" class="fa-brands fa-rocketchat"> 0</i>
+                      </p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ការជូនដំណឹង</p>
+                      <p class="bg-secondary-subtle rounded-2 me-2 px-2 py-1">ចំណេះដឹងឌីជីថលDigital Litery</p>
+                    </div>
+                    <div class="date">
+                      <p>3 ,october 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-4">
+            <div class="card border-0 py-3">
+              <div class="card-header border-bottom-0">
+                <div class="control d-flex justify-content-between">
+                  <h4 class="mx-3">ការងារ</h4>
+                </div>
+                <div class="card-body border border-2 mx-3 rounded-3 mb-3 ">
+                  <div class="box d-flex mb-3">
+                    <div class="image me-3">
+                      <img src="img/Yc6haxGJ9wHmBSI2UrxiYEMERshieFrjDklauEPJ.png" alt="" width="30" height="24">
+                    </div>
+                   <div class="box d-flex justify-content-between">
+                    <div class="title">
+                      <a href="#">
+                        <h5>Digital Marketing</h5>
+                      </a>
+                      <h5>
+                        <a href="#">តើUX UI ជាអ្វី? </a>
+                      </h5>
+                    </div>
+                    <div class="pic px-3">
+                      <img src="img/g9rP9MW8la1Pi5lchVmNQWsNiskiEqEVrkSLnifX.png" alt="">
+                    </div>
+                   </div>
+                  </div>
+                </div>
+                <div class="card-body border border-2 mx-3 rounded-3 mb-3 ">
+                  <div class="box d-flex mb-3">
+                    <div class="image me-3">
+                      <img src="img/Yc6haxGJ9wHmBSI2UrxiYEMERshieFrjDklauEPJ.png" alt="" width="30" height="24">
+                    </div>
+                   <div class="box d-flex justify-content-between">
+                    <div class="title">
+                      <a href="#">
+                        <h5>Digital Marketing</h5>
+                      </a>
+                      <h5>
+                        <a href="#">តើUX UI ជាអ្វី? </a>
+                      </h5>
+                    </div>
+                    <div class="pic px-3">
+                      <img src="img/g9rP9MW8la1Pi5lchVmNQWsNiskiEqEVrkSLnifX.png" alt="">
+                    </div>
+                   </div>
+                  </div>
+                </div>
+                <div class="card-body border border-2 mx-3 rounded-3 mb-3 ">
+                  <div class="box d-flex mb-3">
+                    <div class="image me-3">
+                      <img src="img/Yc6haxGJ9wHmBSI2UrxiYEMERshieFrjDklauEPJ.png" alt="" width="30" height="24">
+                    </div>
+                   <div class="box d-flex justify-content-between">
+                    <div class="title">
+                      <a href="#">
+                        <h5>Digital Marketing</h5>
+                      </a>
+                      <h5>
+                        <a href="#">តើUX UI ជាអ្វី? </a>
+                      </h5>
+                    </div>
+                    <div class="pic px-3">
+                      <img src="img/g9rP9MW8la1Pi5lchVmNQWsNiskiEqEVrkSLnifX.png" alt="">
+                    </div>
+                   </div>
+                  </div>
+                </div>
+                <div class="card-body border border-2 mx-3 rounded-3 mb-3 ">
+                  <div class="box d-flex mb-3">
+                    <div class="image me-3">
+                      <img src="img/Yc6haxGJ9wHmBSI2UrxiYEMERshieFrjDklauEPJ.png" alt="" width="30" height="24">
+                    </div>
+                   <div class="box d-flex justify-content-between">
+                    <div class="title">
+                      <a href="#">
+                        <h5>Digital Marketing</h5>
+                      </a>
+                      <h5>
+                        <a href="#">តើUX UI ជាអ្វី? </a>
+                      </h5>
+                    </div>
+                    <div class="pic px-3">
+                      <img src="img/g9rP9MW8la1Pi5lchVmNQWsNiskiEqEVrkSLnifX.png" alt="">
+                    </div>
+                   </div>
+                  </div>
+                </div>
+                <div class="card-body border border-2 mx-3 rounded-3 mb-3 ">
+                  <div class="box d-flex mb-3">
+                    <div class="image me-3">
+                      <img src="img/Yc6haxGJ9wHmBSI2UrxiYEMERshieFrjDklauEPJ.png" alt="" width="30" height="24">
+                    </div>
+                   <div class="box d-flex justify-content-between">
+                    <div class="title">
+                      <a href="#">
+                        <h5>Digital Marketing</h5>
+                      </a>
+                      <h5>
+                        <a href="#">តើUX UI ជាអ្វី? </a>
+                      </h5>
+                    </div>
+                    <div class="pic px-3">
+                      <img src="img/g9rP9MW8la1Pi5lchVmNQWsNiskiEqEVrkSLnifX.png" alt="">
+                    </div>
+                   </div>
+                  </div>
+                </div>
+                <div class="card-body border border-2 mx-3 rounded-3 mb-3 ">
+                  <div class="box d-flex mb-3">
+                    <div class="image me-3">
+                      <img src="img/Yc6haxGJ9wHmBSI2UrxiYEMERshieFrjDklauEPJ.png" alt="" width="30" height="24">
+                    </div>
+                   <div class="box d-flex justify-content-between">
+                    <div class="title">
+                      <a href="#">
+                        <h5>Digital Marketing</h5>
+                      </a>
+                      <h5>
+                        <a href="#">តើUX UI ជាអ្វី? </a>
+                      </h5>
+                    </div>
+                    <div class="pic px-3">
+                      <img src="img/g9rP9MW8la1Pi5lchVmNQWsNiskiEqEVrkSLnifX.png" alt="">
+                    </div>
+                   </div>
+                  </div>
+                </div>
+                <div class="card-body border border-2 mx-3 rounded-3 mb-3 ">
+                  <div class="box d-flex mb-3">
+                    <div class="image me-3">
+                      <img src="img/Yc6haxGJ9wHmBSI2UrxiYEMERshieFrjDklauEPJ.png" alt="" width="30" height="24">
+                    </div>
+                   <div class="box d-flex justify-content-between">
+                    <div class="title">
+                      <a href="#">
+                        <h5>Digital Marketing</h5>
+                      </a>
+                      <h5>
+                        <a href="#">តើUX UI ជាអ្វី? </a>
+                      </h5>
+                    </div>
+                    <div class="pic px-3">
+                      <img src="img/g9rP9MW8la1Pi5lchVmNQWsNiskiEqEVrkSLnifX.png" alt="">
+                    </div>
+                   </div>
+                  </div>
+                </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+<script src="js/bootstrap.bundle.js"></script>
+
+</html>
